@@ -1,0 +1,98 @@
+
+#cm_panel_btn {
+  position: fixed !important;
+  left: 12px !important;
+  top: 90px !important;
+  z-index: 2147483647 !important;
+  width: 46px !important;
+  height: 46px !important;
+  border-radius: 999px !important;
+  font-size: 22px !important;
+  background: #6b1518 !important;
+  color: white !important;
+  border: 1px solid #c77 !important;
+  box-shadow: 0 8px 24px rgba(0,0,0,.55) !important;
+}
+
+#cm_panel {
+  position: fixed !important;
+  left: 10px !important;
+  right: 10px !important;
+  top: 145px !important;
+  max-height: 72vh !important;
+  overflow-y: auto !important;
+  display: none;
+  z-index: 2147483647 !important;
+  padding: 12px !important;
+  border-radius: 14px !important;
+  border: 1px solid rgba(180,70,70,.8) !important;
+  background: rgba(18,10,10,.98) !important;
+  color: #f8e6cc !important;
+  box-shadow: 0 12px 36px rgba(0,0,0,.65) !important;
+  font-size: 14px !important;
+}
+
+#cm_panel.open { display: block !important; }
+
+#cm_panel button {
+  background: rgba(105,24,28,.95);
+  color: #fff3df;
+  border: 1px solid rgba(190,100,90,.65);
+  border-radius: 8px;
+  padding: 5px 8px;
+}
+
+.cm-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.cm-block {
+  border: 1px solid rgba(180,70,70,.35);
+  border-radius: 10px;
+  padding: 8px;
+  background: rgba(255,255,255,.04);
+  margin-bottom: 8px;
+}
+
+.cm-label { font-weight: 700; margin-bottom: 6px; }
+.cm-mode { display: inline-block; margin: 4px 10px 4px 0; }
+.cm-actions { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0; }
+
+.cm-item {
+  border: 1px solid rgba(180,70,70,.45);
+  border-radius: 10px;
+  padding: 8px;
+  margin: 8px 0;
+  background: rgba(255,255,255,.045);
+}
+
+.cm-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+#cm_panel input[type=text],
+#cm_panel textarea {
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff2df;
+  background: rgba(0,0,0,.38);
+  border: 1px solid rgba(190,130,100,.45);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+#cm_panel textarea {
+  min-height: 82px;
+  resize: vertical;
+  line-height: 1.45;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+#cm_import_box { min-height: 120px !important; }

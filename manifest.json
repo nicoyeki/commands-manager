@@ -1,0 +1,11 @@
+{
+  "display_name": "Commands Manager Panel",
+  "loading_order": 99,
+  "requires": [],
+  "optional": [],
+  "js": "script.js",
+  "css": "style.css",
+  "author": "ChatGPT",
+  "version": "4.0.0",
+  "homePage": ""
+}
